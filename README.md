@@ -1,3 +1,40 @@
+![](https://img.shields.io/badge/Microverse-blueviolet)
+
+# Math magicians: setup
+
+> This is the first project of the Math Magicians application. I set up the environment and tools needed to develop a React application. 
+
+## Screen Short
+
+![react](https://user-images.githubusercontent.com/108806646/199004542-38a0af64-f9ca-46ea-adbc-efbbe6fd87c5.gif)
+
+## Built With
+
+- Library: React.js
+
+## Live Demo
+
+[Math magicians Link]()
+
+### Prerequisites
+
+To run this app on your local computer you need the browser (Google Chrome is the best)
+
+### Setup
+
+- Clone the repository on your local machine
+- Cd into the folder
+
+### Install
+
+- Install VSCode or any code editor you like
+- Install npm by running npm install
+- run: npm start
+
+### Run tests
+
+- run: npm test
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
