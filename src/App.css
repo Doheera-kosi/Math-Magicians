@@ -38,10 +38,12 @@
   }
 } */
 
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Farro:wght@300;400;500;700&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lato:wght@300;400;700;900&family=Lobster+Two:wght@400;700&family=Poppins:wght@300;400;500;600;700;800&family=Satisfy&display=swap');
+
 * {
   padding: 0;
   margin: 0;
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Farro', sans-serif;
 }
 
 html {
