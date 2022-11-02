@@ -106,7 +106,7 @@ body {
   gap: 1px;
 }
 
- .calc-gl { /* gl - grid last */
+.calc-gl { /* gl - grid last */
   display: grid;
   grid-template-columns: 2fr 1fr 1fr;
   place-content: center;
