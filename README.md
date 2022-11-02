@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Math magicians: setup
+# Math magicians: Components
 
 > This is the first project of the Math Magicians application. I set up the environment and tools needed to develop a React application. 
 
