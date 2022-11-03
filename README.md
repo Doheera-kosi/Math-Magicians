@@ -1,12 +1,12 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Math magicians: Components
+# Math magicians: Refactor With Hooks
 
 > This is the first project of the Math Magicians application. I set up the environment and tools needed to develop a React application. 
 
 ## Screen Short
 
-![react](https://user-images.githubusercontent.com/108806646/199004542-38a0af64-f9ca-46ea-adbc-efbbe6fd87c5.gif)
+<!-- ![react](https://user-images.githubusercontent.com/108806646/199004542-38a0af64-f9ca-46ea-adbc-efbbe6fd87c5.gif) -->
 
 ## Built With
 
