@@ -38,8 +38,8 @@ body {
 }
 
 .main-container {
-  flex: 1;
   display: flex;
+  flex-direction: column;
   height: 100%;
   min-width: 100%;
   justify-content: center;
@@ -49,33 +49,45 @@ body {
 .calc-container {
   display: flex;
   flex-direction: column;
-  background: lightgrey;
-  width: 30%;
-  height: auto;
-  gap: 1px;
+  width: 40%;
+  height: 60%;
+  gap: 5px;
   flex-wrap: wrap;
+  border-radius: 5px;
+  padding: 1em;
+  box-shadow: 0 2px 2px 3px;
+  margin-right: 2em;
 }
 
 .calc-output {
+  line-height: 1.6em;
   text-align: end;
-  background: grey;
+  background-color: rgb(0, 0, 0);
+  max-height: 3em;
   font-size: 2.5em;
   padding: 0.2em;
-  color: white;
+  color: rgb(228, 231, 230);
   overflow-x: auto;
   max-width: 100%;
+  flex: 1;
+  box-shadow: 2px 2px 2px rgba(24, 24, 24, 0.425);
+  border-radius: 5px;
 }
 
 .btns-container {
   display: grid;
+  flex: 4;
   grid-template-areas: "auto auto auto auto";
   gap: 1px;
 }
 
 .btn {
-  height: 4rem;
+  height: 100%;
   border: none;
   font-weight: bold;
+  font-size: 1em;
+  box-shadow: 2px 2px 2px rgba(24, 24, 24, 0.425);
+  border-radius: 5px;
 }
 
 .gc {
@@ -88,7 +100,8 @@ body {
 }
 
 .orange {
-  background: orange;
+  background-color: rgb(207, 214, 104);
+  color: black;
 }
 
 .orange:hover {
@@ -97,4 +110,82 @@ body {
 
 .btn-zero {
   grid-column: 1 / span 2;
+}
+
+.homePage {
+  margin-top: 3em;
+  display: flex;
+  flex-direction: column;
+  color: rgb(23, 26, 25);
+  height: 100vh;
+  width: 88%;
+}
+
+.home-title {
+  font-weight: bolder;
+  padding: 1em;
+  font-size: 2em;
+}
+
+.paragraphs {
+  font-size: 1.2em;
+  padding-left: 2rem;
+}
+
+.quotePage {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10em;
+  color: rgb(65, 83, 77);
+  height: 100vh;
+  width: 88%;
+}
+
+.navBar {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 6%;
+  align-items: center;
+  width: 85%;
+}
+
+.Logo {
+  font-family: 'Farro', sans-serif;
+  color: black;
+  font-size: 3em;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  width: 20%;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+  transition: 1s;
+}
+
+.link:hover {
+  color: rgb(145, 44, 7);
+}
+
+.calculatorPage {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-size: 1.05em;
+  font-weight: 500;
+  height: 100%;
+  min-width: 90%;
+  justify-content: space-between;
+  margin-top: 8em;
+}
+
+.lets-do {
+  color: rgb(27, 26, 26);
+  padding-left: 4rem;
 }
