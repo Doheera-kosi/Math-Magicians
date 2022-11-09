@@ -20,6 +20,18 @@
 
 To run this app on your local computer you need the browser (Google Chrome is the best)
 
+### Authors
+
+## JAMES ASIBEY MANU
+- GitHub:[@jaamanu](https://github.com/jaamanu)
+- Twitter:[@JamesAsibeyManu](https://twitter.com/JamesAsibeyManu)
+- LinkedIn:[@jamesasibeymanu](https://www.linkedin.com/in/jamesasibeymanu)
+
+## Evans Kupour
+- GitHub:[@Doheera-kosi](https://github.com/Doheera-kosi)
+- Twitter:[@KupourE](https://twitter.com/KupourE)
+- LinkedIn:[@evanskupour](https://www.linkedin.com/in/evans-kupour-1879421a3/)
+
 ### Setup
 
 - Clone the repository on your local machine
