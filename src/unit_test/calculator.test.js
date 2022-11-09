@@ -1,30 +1,20 @@
-import calculate from '../dialogue/calculator';
+import operate from '../dialogue/operator';
 
-describe('calculate tests', () => {
-  const objInput = {
-    total: '3',
-    next: '6',
-    operation: '+',
-  };
-  test('AC test', () => {
-    expect(calculate(objInput, 'AC')).toEqual({
-      next: null,
-      operation: null,
-      total: null,
-    });
+describe('operate tests', () => {
+  test('add should return 4', () => {
+    const result = operate(2, 2, '+');
+    expect(result).toBe('4');
   });
-  test('decimal dot test', () => {
-    expect(calculate(objInput, '.')).toEqual({
-      total: '3',
-      next: '6.',
-      operation: '+',
-    });
+  test('subtract should return 2', () => {
+    const result = operate(4, 2, '-');
+    expect(result).toBe('2');
   });
-  test('+/- symbol', () => {
-    expect(calculate(objInput, '+/-')).toEqual({
-      total: '3',
-      next: '-6',
-      operation: '+',
-    });
+  test('multiply should return 8', () => {
+    const result = operate(4, 2, 'x');
+    expect(result).toBe('8');
+  });
+  test('division should return 2', () => {
+    const result = operate(4, 2, '÷');
+    expect(result).toBe('2');
   });
 });
