@@ -44,6 +44,7 @@ body {
   min-width: 100%;
   justify-content: center;
   align-items: center;
+  color: white;
 }
 
 .calc-container {
@@ -57,6 +58,7 @@ body {
   padding: 1em;
   box-shadow: 0 2px 2px 3px;
   margin-right: 2em;
+  background-color: rgb(53, 54, 51);
 }
 
 .calc-output {
