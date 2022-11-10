@@ -14,7 +14,7 @@
 
 ## Live Demo
 
-[Math magicians Link]()
+[Math magicians Link](https://636cc6ee0607b76c6df8b8c4--sparkling-moonbeam-05f91e.netlify.app/)
 
 ### Prerequisites
 
